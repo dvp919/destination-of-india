@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+main {
+  padding-top: 20px;
+}
+
+.title_video {
+  text-align: center;
+}
+
+.title {
+  padding-top: 120px;
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: yellowgreen;
+  text-decoration: underline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px;
+  text-decoration-color: darkgreen;
+  
+}
+
+.youtube1{
+  width: 80%;
+  height: 600px;
+  padding-top: 20px;
+  
+  border :none;
+}
+
+.container1{
+  background-image: linear-gradient(to right, white,lightyellow);
+  padding-top: 20px;
+  display: flex;
+  margin :100px;
+  justify-content: center;
+  border:5px double green;
+  border-radius: 20px;
+}
+
+
+.container2{
+  background-image: linear-gradient(to left, white,lightblue);
+  padding-top: 20px;
+  display: flex;
+  margin :100px;
+  justify-content: center;
+  border:5px double green;
+  border-radius: 20px;
+}
+
+.container3{
+  background-image: linear-gradient(to right, white,lightyellow);
+  padding-top: 20px;
+  display: flex;
+  margin :100px;
+  justify-content: center;
+  border:5px double green;
+  border-radius: 20px;
+}
+
+.container4{
+  background-image: linear-gradient(to left, white,lightblue);
+  padding-top: 20px;
+  display: flex;
+  margin :100px;
+  justify-content: center;
+  border:5px double green;
+  border-radius: 20px;
+}
+
+.container5{
+  background-image: linear-gradient(to right, white,lightyellow);
+  padding-top: 20px;
+  display: flex;
+  margin :100px;
+  justify-content: center;
+  border:5px double green;
+  border-radius: 20px;
+}
+
+.sardar
+{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.sardar_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.image_sardar {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+
+.dwarka {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.dwarka_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+
+.h3_sardar {
+  font-size: 30px;
+}
+
+
+.kutch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.kutch_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+
+.modhera {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.modhera_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+
+.udaipur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.udaipur_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 990px) {
+  .container1 {
+    padding : 15px 20px;
+  }
+
+  .title_video {
+    padding-top: 100px;
+  }
+
+  div {
+    padding : 15px;
+  }
+
+  .image_sardar {
+    width: 50%;
+  }
+}
+
+
+
+
+#main{
+  background-color: rgb(255, 255, 255);
+  width:600px; 
+  height:auto; 
+  overflow:hidden; 
+  padding-bottom:20px; 
+  margin-left:auto;
+  margin-right:auto; 
+  border-radius:5px; 
+  padding-left:10px;
+  margin-top:100px;
+  border-top:3px double #f1f1f1; 
+  border-bottom:3px double #f1f1f1; 
+  padding-top:20px;
+}
+
+#login 
+{
+  align-items: center;
+}
+  
+  #main table{
+  font-family:"Comic Sans MS", cursive;
+}
+
+  #main .tb{
+  height:28px; width:230px;
+  border:1px solid #f26724;
+  color:#fd7838;
+  font-weight:bold;
+  border-left:5px solid #f7f7f7;
+  opacity:0.9;
+}
+  
+  #main .tb:focus{
+  height:28px;
+  border:1px solid #f26724;
+  outline:none;
+  border-left:5px solid #f7f7f7;
+}
+
+  #main .btn{
+  width:150px;
+  height:32px; 
+  outline:none;  
+  color:#f7f7f7; 
+  font-weight:bold; 
+  border:0px solid #f26724; 
+  text-shadow: 0px 0.5px 0.5px #fff; 
+  border-radius: 2px; 
+  font-weight: 600; 
+  color: #f26724; 
+  letter-spacing: 1px; 
+  font-size:14px; 
+  background-color:#f1f1f1; 
+  -webkit-transition: 1s; 
+  -moz-transition: 1s; 
+  transition: 1s;
+}
+
+  #main .btn:hover{
+  background-color:#f26724; 
+  outline:none;  
+  border-radius: 2px; 
+  color:#f1f1f1; 
+  border:1px solid #f1f1f1;
+  -webkit-transition: 1s; 
+  -moz-transition: 1s; 
+  transition: 1s; 
+}
