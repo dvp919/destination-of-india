@@ -5,61 +5,62 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://kit.fontawesome.com/c7478e3540.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="images/indiaLogo.ico" />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/c7478e3540.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <title>Explore India</title>
-
-        <link rel="stylesheet" href="styles/main.css">      <!--  Master Page's CSS  -->
-        <link rel="stylesheet" href="styles/travel.css">    <!--  Travel Page's CSS  -->
-        <script src="js/main.js" defer></script>
-        <script src="js/luxury.js" defer></script>
+        <link rel="shortcut icon" href="images/indiaLogo.ico" />
+        <link rel="stylesheet" href="styles/nature.css">
+           <script src="js/nature.js"></script>   
     </head>
 
     <body>
+
+
+        
 <!-- Navigation -->
         <nav> 
-           <img src="images/logo.svg" alt="Explore India Logo">
+           <img src="images/onlinelogomaker-101521-1746-1001.svg" alt="">
            <div class="Navigation">
                <ul>
                     <i id="menu-close" class="fas fa-times"></i>
-                   <li><a  href="index.html">Home</a></li>
+                    <li><a  href="index.html">Home</a></li>
                    <li><a href="#">About India</a>
                         <ul class="dropdown">
-                            <li><a href ="ancienthistory.html">Ancient history</a></li>
-                            <li><a href ="medivalhistory.html">Medival history</a></li>
-                            <li><a href ="freedomstruggle.html">Freedom Struggle</a></li>
+                            <li><a href ="#">Ancient history</a></li>
+                            <li><a href ="#">Medival history</a></li>
+                            <li><a href ="#">Freedom Struggle</a></li>
                         </ul>
                     </li>
                    <li><a href="#">Destination</a>
                         <ul class="dropdown">
-                            <li><a href ="gujarat.html">Gujarat</a></li>
-                            <li><a href ="maharastra.html">Maharashtra</a></li>
-                            <li><a href ="goa.html">Goa</a></li>
+                            <li><a href ="#">Popular</a></li>
+                            <li><a href ="#">Spritual</a></li>
+                            <li><a href ="#">Heritage</a></li>
                         </ul>
                     </li>
                    <li><a href="#">Culture</a>
                         <ul class="dropdown">
-                            <li><a href ="Food_page.html">Food</a></li>
-                            <li><a href ="folkdance.html">Folk Dance and Arts</a></li>
-                            <li><a href ="Festivals.html">Festivals</a></li>
+                            <li><a href ="#">Food</a></li>
+                            <li><a href ="#">Folk Dance and Arts</a></li>
+                            <li><a href ="#">Festivals</a></li>
                         </ul>
                     </li> 
-                   <li><a href="#">Experience</a>
+                   <li><a class="active" href="#">Experience</a>
                         <ul class="dropdown">
                             <li><a href ="adventure.html">Adventure</a></li>
-                            <li><a href ="nature.html">Nature and Wildlife</a></li>
+                            <li><a href ="#">Nature and Wildlife</a></li>
                             <li><a href ="yoga.html">Yoga and Wellnes</a></li>
                         </ul>
                     </li>   
-                   <li><a class="active" href="#">Travel</a>
+                   <li><a href="#">Travel</a>
                         <ul class="dropdown">
-                            <li><a href ="weather.html">Weather</a></li>
-                            <li><a href ="hotel.html">Hotels</a></li>
-                            <li><a class="active" href ="luxury.html">Luxury</a></li>
+                            <li><a href ="#">Weather</a></li>
+                            <li><a href ="#">Hotels</a></li>
+                            <li><a href ="#">Luxury</a></li>
                         </ul>
                     </li>
                </ul>
@@ -70,100 +71,172 @@
            </div>
         </nav>
 
-        <!-- Luxury  -->       
-        <section> 
-            <div class="container">
-                <br>
-                    <center>
-                        <div id="div-hotel">
-                            <img class="imgHotel" src="images/luxurypage.jpg" alt="Luxury in India">
-                            <hidden></hidden>
-                        </div>
-                            <h1 class="div-hotel-h1">Experience Luxury in India</h1>
-                    </center>
-            </div>
+        <!-- nature  -->
+
+       <section class="nature-header">
+          <div class="text-box">
+              <h1>Nature and Wildlife</h1>
+          </div>
         </section>
 
-        <!-- start of main -->
-          <main> 
-              <br>             
-            <div class="div-luxury">                               <!--   Popular Luxury Stay in India      -->
-                <section class="section-luxury">
-                    <img src="images/luxury1.jpg" alt="Luxury Stay in India">
-                    <h1>Luxury Stay</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/jungle1.jpg" alt="Jungle Lodge in India">
-                    <h1>Jungle Lodge</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/golf1.jpg" alt="Golf Court in India">
-                    <h1>Golf Court</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/river1.jpg" alt="River Cruise in India">
-                    <h1>River Cruise</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/tent1.jpg" alt="Tent Stay in India">
-                    <h1>Luxury Tent Stay</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/luxuryTrains1.jpg" alt="Luxury Train in India">
-                    <h1>Luxury Train</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/resortq.jpg" alt="Luxury Resort Stay in India">
-                    <h1>Luxury Resort Stay</h1>    
-                </section>
-                <section class="section-luxury">
-                    <img src="images/lake.jpg" alt="Luxury Lake Palace in India">
-                    <h1>Luxury Palace</h1>    
-                </section>
+        <section class="nature-body">
+           <div class="nature-container">
+               <div class="nature-card">
+                   <div class="nature-imgbox">
+                       <img src="/images/nature.jpg" alt="natuer">
+                   </div>
+                   <div class="content">
+                       <h2>Nature</h2>
+                       <p>Nature, in the broadest sense, is equivalent to the natural world, physical world, or material world. "Nature" refers to the phenomena of the physical world, and also to life in general. It ranges in scale from the subatomic to the cosmic.</p>
+                 </div>
+               </div>
+
+               <div class="nature-card">
+                <div class="nature-imgbox">
+                    <img src="/images/wildlife.jpg" alt="natuer">
+                </div>
+                <div class="content">
+                    <h2>Wildlife</h2>
+                    <p>Wildlife traditionally refers to non-domesticated vertebrates, but has come to broadly reference to all wild plants, animals and other organisms .</p>
+              </div>
             </div>
-            
-            <!--     Survey Form        -->
-            <form id="frmSurvey" method="get" action="javascript:void(0);">
-                <br><br>
-                <section id="sectionSurvey" class="section-survey">
-                    <h1 class="form-H1">Fill Your Interest of Luxury in this Survey</h1>
-                    <fieldset class="field-set-class">                                                    <!--   Luxury Stay Survey     -->
-                        <legend class="legend-class">Luxury Interest</legend><br>
-                        <label for="txtFName">First Name:</label>
-                        <input type="text" placeholder="Enter Your First Name" name="txtFName" id="txtFName" size="30" /><br>
-                        <label for="txtLName">Last Name:</label>
-                        <input type="text" placeholder="Enter Your Last Name" name="txtLName" id="txtLName" size="30" /><br>
-                        <label id="lblEmail" for="txtEmail">Email:</label>
-                        <input type="email" placeholder="Enter Valid Email" name="txtEmail" id="txtEmail" size="40" /><br><br>
+           </div>
+        </section>
 
-                        <label for="chkLuxury">Select your interest of stay or travel to experinece the Luxury?</label><br>
-                        <div id="divCheckboxLuxury" class="div-checkbox-luxury">
-                        </div><br>
 
-                        <label for="radioLuxury">Which season you like to exeperience the luxury?</label><br>
-                        <div id="divRadioSeason"  class="div-radio-season">
-                        </div><br><br>
 
-                        <label for="rangeBudget">What is your budget?</label>
-						<input type="range" min="10000" max="100000" value="12000" id="rangeBudget">
-                        <label for="rangeAmount" class="label-amount">Amount: </label><span id="rangeAmount"></span></p><br>
+        <section class="destination">
+            <h1>Destination :- </h1> 
+    </section>
+        <section class="nature-timeline">
+            <div class="container-nature-body">
+                <div class="timeline">
+                    <ul>
+                        
+                        <li>
+                            <div class= "timeline-content" >
+                                <h1>Coorg :-</h1>
+                                <p>Famously known as the ‘Scotland of India’, Coorg is a tiny hill station located in Southern Karnataka in the lap of Western Ghats. This place is irresistible with its lush coffee plantations, stunning landscapes, quaint villages, refreshing weather, cascading waterfalls, like Abbey and Iruppu falls, and a diversity of flora and fauna at Nagarhole National Park and Talakaveri Wildlife Sanctuary. </p>
+                            </div>
+                        </li>
+                       
 
-                        <button id="btnSubmit">Submit</button>
-                        <button id="btnReset">Reset</button><br>
-                    </fieldset>
-                </section>
-            </form>
+                       
+                        <li>
+                            <div class= "timeline-content"  >
+                                <h1>Ranthambore National Park :-</h1>
+                                <p> Established near Sawai Madhopur, Ranthambore national park is one of the largest national parks residing in Indian state Rajasthan. The peculiarity that sets this site apart is the rich heritage that tags along. The Ranthambore national park is commemorated in history for serving as an private hunting  territory for Jaipur’s royalty. Here adventure is not limited till safaris, Ranthambore Fort is another attraction which is  standing grand  in the middle of forest. </p>
+                            </div>
+                        </li>
+                   
+                    
 
-            <!-- The Modal Div -->
-            <div class="modal">
-                <div class="modal-content">
-                    <span class="close-button">×</span>
-                    <h3 class="modal-h3">Thank you for your interest. <br>We will get back to you.</h1>
+                       
+                        <li>
+                            <div class= "timeline-content" >
+                                <h1>Kaas Plateau :-</h1>
+                                <p>Another ethereal beauty is the Kaas Plateau, which is a UNESCO World Biodiversity Site. It attracts visitors with more than 850 different and unique species of flowering plants. When these flowering plants are in full bloom in the months of August-September, its beauty is incomparable. Being relatively undiscovered, you can experience this beauty in utmost serenity and breathe in the fresh, unpolluted air.</p>
+                            </div>
+                        </li>
+                   
+
+                    
+                        <li>
+                            <div class= "timeline-content" >
+                                <h1>Corbett National Park :-</h1>
+                                <p>Titled after a legendary hunter turned conservationist, Jim Corbett National place is settled in the Nainital district of Uttarakhand. It is renowned for being one of India’s oldest and most beautiful national parks. With the exceptional facility of booking  forest rest houses located deep inside the dense forests, Corbett National park is a major tourist attraction site as its manifest true beauty of forest of Himalayan foothills also known as Terai Forest.</p>
+                            </div>
+                        </li>
+                
+
+                       
+                        <li>
+                            <div class= "timeline-content" >
+                                <h1>Munnar :-</h1>
+                                <p>Spend some “me” time in nature’s lap in Munnar, a hill station famous for its tea and spice plantations. Camping, parasailing, birdwatching, trekking, wildlife spotting, fishing, boating and rock climbing are the popular activities here. Some of the must-visit attractions include Echo Point, and Kundala Lake where you can enjoy boating and shikara rides amidst the natural beauty and views of rolling hills; Devikulum is home to an assortment of temples, Attakud waterfall and Anamudi Peak, among many others.</p>
+                            </div>
+                        </li>
+                    
+
+                   
+                        <li>
+                            <div class= "timeline-content" >
+                                <h1>Kanha National park :-</h1>
+                                <p>Positioned in the central Indian highlands enclosing the cultivated Maikal range of Satpuras, Kanha national park is one of the exceedingly splendid tiger reserves globally. Kahna National Park is well-known as one the most well maintained national parks prevailing globally and noted for its vast expanse of grass land and forest. </p>
+                            </div>
+                        </li>
+                       
+                    </ul>
                 </div>
             </div>
-          </main>
-          <!-- end of main -->
+        </section>
+        
+<!-- Form -->
 
+   <section class="form-section">
+    <div class="form-container">
+       
+        <div class="text">User Experience Form</div>
+       
+        <form action="#" id="form" name="UserExperienceForm" onsubmit="return validation()">
+
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" id="firstname"name="firstname">
+                <span id="ferror"></span>
+                 <div class="underline"></div>
+                 <label for="">First Name</label> 
+                 <span id="firname"></span>          
+              </div>
+
+              <div class="input-data">
+                 <input type="text" id="lastname">
+                 <div class="underline"></div>
+                 <label for="">Last Name</label>    
+                 <span id="laname"></span>      
+              </div>
+           </div>
+
+
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" id="emailadd">
+                 <div class="underline"></div>
+                 <label for="">Email Address</label>  
+                 <span id="emailaddr"></span>           
+              </div>
+
+              <div class="input-data">
+                 <input type="text" id="placename">
+                 <div class="underline"></div>
+                 <label for="">Place Name</label>
+                 <span id="plname"></span>            
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data textarea">
+                 <textarea rows="8" cols="80" id="userexperience"></textarea>
+                 <br />
+                 <div class="underline"></div>
+                 <label for="">Write your Experience</label>
+                 <br />
+                 <span id="userexp"></span>
+                
+                 <div class="form-row submit-btn">
+                    <div class="input-data">
+                       <div class="inner"></div>
+                       <input  type="submit" value="submit">
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </form>
+     </div>
+   </section>
+
+
+   </script>
+   
         <footer>
             <!-- Footer main -->
             <section>
@@ -289,9 +362,9 @@
               <div class="footer-content">
                 <h2 class="footer-h2">Contact</h2>
                   <address>
-                      Explore India<br>
-                      Group 5,<br>
-                      59 Hayden Street,<br>
+                      Explore India<br/>
+                      Group 5,<br/>
+                      59 Hayden Street,<br/>
                       Toronto
                   </address>
                   <i class="fa fa-phone" title="Call"></i><a class="footer-a" title="tel" href="tel:+11234567890" target="_blank">+1-123 456 7890</a><br>
@@ -338,5 +411,21 @@
               &copy; 2021 Copyright - Group 5 - Explore India
             </p>
           </footer>
+        
+      <script>
+          $('#menu-btn').click(function() {
+              $('nav .Navigation ul').addClass('active');
+          });
+          $('#menu-close').click(function() {
+              $('nav .Navigation ul').removeClass('active');
+          });
+      </script>
+
+
+
     </body>
+
+
+
+
 </html>
